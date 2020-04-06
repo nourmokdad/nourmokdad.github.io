@@ -11,6 +11,9 @@
        url('Montserrat-Bold.ttf') format('truetype'),
        url('Montserrat-Bold.svg#Montserrat-Bold') format('svg');
 }
+@-ms-viewport {
+  width: device-width ;
+}
 
 .fontpro,.fontpro-35810 {
   font-family: 'Montserrat-Bold',sans-serif;
@@ -317,9 +320,64 @@ a {
     
 }
 
+.caption img{
+    
+    position: absolute;
+    box-shadow: -50px -50px;
+    left:670px;
+    top:300px;
+}
+
+.drawing img{
+    top:450px;
+    left: 50px;
+    height: 300px;  
+}
+
+.wf1 img{
+    box-shadow: 50px 50px;
+    top:50px;
+    left: 700px;
+    height: 300px;  
+}
+.wf2 img{
+    box-shadow: 80px 50px;
+
+    top:500px;
+    left: 500px;
+    height: 400px;
+    
+}
+
 footer{
     background-color: #AEC7C3;
-    padding: 40px;
+    width: 99.6%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     color: #2342D0;
     margin:100px -7px -20px -7px;
+}
+
+@media screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+    footer {
+    width: 320px ;
+  }
+    
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  footer {
+    width: 480px ;
+  }
+    .title{
+        font-size: 50px;
+    }
+}
+@media screen and (min-width: 481px) {
+  /* comes into effect for screens larger than or equal to 481 pixels */
+  footer {
+    width: 481px ;
+  }
 }
