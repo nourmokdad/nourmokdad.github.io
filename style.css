@@ -1,0 +1,109 @@
+body {
+
+  font-family: cormorant-garamond,serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 70px;
+  color: white;
+  background: url("images/background.png");
+  background-attachment: fixed;
+  background-size: cover;
+
+
+}
+
+section {
+    width: 100%;
+}
+
+.initial {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.initial img {
+  height: 100px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar{
+  position: fixed;
+  margin-top: 5%;
+  height: 100px;
+  width: 25%;
+  float: left;
+  margin-left: 5%;
+  font-size: 30px;
+}
+
+.projects {
+  height: auto;
+  padding-right: 50px;
+  position: relative;
+  font-size: 30px;
+  width: 60%;
+  margin-top: 5%;
+  float: right;
+}
+
+.project1 {
+  wdith: 40%
+  position: absolute;
+  top: 0px;
+  border-top: 2px solid white;
+}
+
+.project2 {
+  wdith: 40%
+  position: absolute;
+  margin-top: 300px;
+  border-top: 2px solid white;
+}
+
+
+.project3 {
+  wdith: 40%
+  position: absolute;
+  margin-top: 200px;
+  border-top: 2px solid white;
+}
+
+
+.title {
+  margin-left: 0px;
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.content {
+  height: auto;
+  width: 50%;
+  float: left;
+  font-style: normal;
+  margin-top: 20px;
+  font-size: 18px;
+  padding-top: 20px;
+  line-height: 20px;
+}
+
+.content img {
+  height: 170px;
+  float: left;
+  border: 1px solid white;
+  margin-left: 20px;
+
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+}
+
+a:hover {
+  color: purple;
+}
